@@ -1,0 +1,15 @@
+flarum-approval:
+  admin:
+    permissions:
+      approve_posts_label: 'Zatwierdzanie postów'
+      reply_without_approval_label: 'Odpowiadanie w dyskusji z pominięciem moderacji'
+      start_discussions_without_approval_label: 'Rozpoczynanie dyskusji z pominięciem moderacji'
+  forum:
+    badge:
+      awaiting_approval_tooltip: '=> flarum-approval.ref.awaiting_approval'
+    post:
+      awaiting_approval_text: '=> flarum-approval.ref.awaiting_approval'
+    post_controls:
+      approve_button: Zatwierdź
+  ref:
+    awaiting_approval: 'Czeka na zatwierdzenie'
