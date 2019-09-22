@@ -1,0 +1,7 @@
+wuethrich44-sso:
+  admin:
+    settings:
+      title: 'Ustawienia logowania jednokrotnego (SSO)'
+      signup_url: 'URL rejestracji'
+      login_url: 'URL logowania'
+      logout_url: 'URL wylogowania'
