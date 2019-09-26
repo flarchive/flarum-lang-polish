@@ -1,0 +1,15 @@
+dem13n:
+  forum:
+    nickname:
+      head_title: Pseudonim
+      new_nickname: 'Wpisz nowy pseudonim'
+      change: 'Zmień pseudonim'
+      admin_change_nickname: '{username} zmienił twój pseudonim na <strong>{actor}</strong>'
+      admin_delete_nickname: '{username} usunął twój pseudonim'
+      submit_button: '=> core.ref.save_changes'
+  admin:
+    nickname:
+      settings_modal_title: 'Ustawienia zmiany pseudonimu'
+      unlimited_nickname_change: 'Nieograniczone zmienianie pseudonimu'
+      allow_nickname_change: 'Pozwól na zmianę pseudonimu'
+      submit_button: '=> core.ref.save_changes'
