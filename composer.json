@@ -1,0 +1,48 @@
+{
+	"name": "rob006/flarum-lang-polish",
+	"type": "flarum-extension",
+	"description": "Polish language pack for Flarum.",
+	"homepage": "https://github.com/rob006-software/flarum-lang-polish",
+	"keywords": [
+		"locale",
+		"flarum",
+		"polish-locale"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Robert Korulczyk",
+			"email": "robert@korulczyk.pl",
+			"homepage": "https://rob006.net/"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/rob006-software/flarum-lang-polish/issues",
+		"source": "https://github.com/rob006-software/flarum-lang-polish"
+	},
+	"require": {
+		"flarum/core": "^1.0"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"extra": {
+		"branch-alias": {
+			"dev-master": "0.5.x-dev"
+		},
+		"flarum-extension": {
+			"title": "Polish",
+			"icon": {
+				"image": "icon.svg",
+				"backgroundSize": "cover",
+				"backgroundPosition": "center"
+			}
+		},
+		"flarum-locale": {
+			"code": "pl",
+			"title": "Polski"
+		},
+		"flagrow": {
+			"discuss": "https://discuss.flarum.org/d/18134/30"
+		}
+	}
+}
